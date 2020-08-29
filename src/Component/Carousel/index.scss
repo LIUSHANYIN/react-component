@@ -1,0 +1,45 @@
+.Carousel {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    width: 40px;
+    height: 20px;
+    border: none;
+    background-color: white;
+    align-items: center;
+    outline: none;
+    :hover {
+      background-color: rgb(74, 229, 240);
+      border-radius: 50%;
+    }
+    img {
+      width: 40px;
+    }
+  }
+  .Carousel-container {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    // overflow-x: hidden;
+    .img-mid {
+      border: 3px solid rgba(0, 0, 0, 0.747);
+      width: 300px;
+      height: auto;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .img-left {
+      width: 250px;
+      height: auto;
+      border: 1px solid rgba(15, 17, 17, 0.966);
+    }
+    .img-right {
+      width: 250px;
+      height: auto;
+      border: 1px solid rgba(15, 17, 17, 0.966);
+    }
+  }
+}
