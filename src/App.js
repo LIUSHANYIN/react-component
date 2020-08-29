@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import Carousel from './Component/Carousel/index';
 import Popup from './Component/Popup/index';
-import Navbar from './Component/Navbar/index';
 function App() {
   const [isPopup, setPopup] = useState(false);
   const handlePopup = () => {
